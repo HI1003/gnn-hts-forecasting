@@ -1,0 +1,17 @@
+dataset_name: Italian
+
+hierarchy:
+  level_names: ["Total", "Brand", "Item"]
+  level_sizes: [1, 4, 118]
+  total_nodes: 123
+
+data:
+  csv_pattern: "Italian_dataset_{scenario}_promotion.csv"
+  scenarios: ["with", "without"]
+  data_dir: "datasets/italian"
+
+training:
+  default_num_timesteps_in: 7
+  default_num_timesteps_out: 1
+  default_epochs: 150
+  default_patience: 20

@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Generated data and experiment outputs
+datasets/*/raw/*.csv
+datasets/*/processed/
+*.npy
+!datasets/*/graph/*.npy
+output/
+results/
+tmp/
+
+# Logs and LaTeX/build artifacts
+*.log
+*.aux
+*.out
+*.spl
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+texput.log
+
+# Local tooling
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.claude/
+.uv-cache/
+
+# Archives and submission-only files
+*.tar
+*.zip
+Submit_material/
